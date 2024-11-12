@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: auto;
+    width: auto;
+    background: rgb(238, 240, 244);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+nav{
+    width: auto;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: row;
+    background-color: blueviolet;
+}
+.logo{
+    width: 207px;
+    height: 107%;
+    cursor: pointer;
+    animation: forwards;
+}
+   
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.info{
+    margin-left: 6% ;
+    margin-top: 5%;
+}
+.info h1{
+
+    font-size: 90px;
+    color: rgb(6, 33, 235);
+    margin-bottom: -2opx;
+    color: white;
+    text-shadow: 0 0 10px rgb(219, 6, 219);
+    transition -top: 1s;
+
+} 
+.info p{
+    color: rgb(9, 1, 18);
+    line-height: 22px;
+}
+.info a{
+    color: beige;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inline - white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.right-img{
+    margin-left: -8%;
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    border: 0;
+    top: 25%;
+    right: 100px;
+}
+.right-img img{
+    margin-left: 15%;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+ transform: translateX(-50%);
+    transition: bottom 1s;
+}
+.right-img:hover .shape{
+    bottom: 40px;
+    box-shadow:1px 10px 15px rgba(245, 217, 3, 0.925) ;
+}
+.right-img .myimg{
+    width: 95%;
+    height: 77%;
+    bottom: 0;
+transition: bottom 0.5s;
+}
+.right-img:hover .myimg{
+    bottom: 40px;
+}
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+.social a{
+    font-size: 35px;
+    color: black;
+    margin-right: 20px;
+}
+.social a:hover{
+    color: darkred;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-container{
+    padding-bottom: 45px;
+    border: 20px;
+    margin: 100px;
+    background-color: black;
+
+}
